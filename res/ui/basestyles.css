@@ -1,0 +1,46 @@
+panel{
+    background-color: gray;
+    border: 1px solid #000;
+    font-family: "Open Sans";
+    font-size: 13px;
+    text-align: left;
+}
+#root{
+    background-color: lightskyblue;
+    display: flex;
+}
+#root .contentPanel{
+    color: pink;
+    display: flex;
+}
+titleBar{
+    background-color:lightslategray;
+    color: white;
+    padding-top: 2px;
+    height: 25px;
+}
+
+titleBar:focus{
+    color: black;
+    background-color: dodgerblue;
+}
+
+.closeButton{
+    text-align: center;
+    font-size: 14px;
+}
+
+titleBar .closeButton{
+    background-color: lightcoral;
+    width: 25px;
+    height: 100%;
+    align-self: flex-end;
+}
+titleBar:focus .closeButton{
+    background-color: red;
+}
+
+.contentPanel{
+    background-color: lightgray;
+    height: 100%;
+}
